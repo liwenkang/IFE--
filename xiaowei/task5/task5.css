@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    font-family: "Microsoft YaHei";
+    background-color: #DEDEDE;
+}
+.clearfix:before,.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear:both;
+}
+.nav {
+    height: 60px;
+    background-color: #333333;
+}
+.nav .logo {
+    float: left;
+}
+.nav .links {
+    float: right;
+}
+.links ul li {
+    float: left;
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+}
+.links ul li a {
+    text-decoration: none;
+    color: #F0F8FF;
+}
+.links ul li.current a {
+    color:#949D9A;
+}
+.content {
+    margin: 20px;
+}
+.you1 {
+    width: 362px;
+    float: right;
+    background-color: white;
+    border-top:1px solid #CDCDCD;
+    border-right: 3px solid #CBCBCB;
+    border-bottom: 3px solid #AEAEAE;
+    border-left: 1px solid #CBCBCB;
+}
+.w321 {
+    margin: 20px;
+}
+.w321 h2{
+    font-size: 15px;
+    line-height: 38px;
+}
+.zuo{
+    text-align: right;
+    padding-right:14px;
+}
+.teshu{
+    padding-top: 2px;
+    vertical-align:top;
+}
+.you{
+    text-align: left;
+}
+.miaoshu{
+    font-size: 16px;
+    font-weight:bold;
+}
+table.youbiao{
+    border-collapse:collapse;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+table.youbiao td.email{
+    height:42px;
+}
+table.youbiao td.tixing{
+    color: #9CA1A5;
+    padding: 5px 0 10px 3px;
+}
+table.youbiao th,table.youbiao td{
+    height: 31px;
+    padding-left: 6px;
+}
+.anniu{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #3355D0;
+    height: 37px;
+    border: 2px solid #8190D3;
+    border-radius: 10px;
+    color: #FFFAF7;
+}
+.zuo1 {
+    margin-right: 384px;
+    margin-bottom: 18px;
+    background-color: white;
+    border-top:1px solid #CDCDCD;
+    border-right: 3px solid #CBCBCB;
+    border-bottom: 3px solid #AEAEAE;
+    border-left: 1px solid #CBCBCB;
+    overflow: auto;
+}
+.w8141 {
+     margin: 20px 20px 36px 20px;
+ }
+.kuai{
+    line-height: 38px;
+}
+.zuo2 {
+    margin-right: 384px;
+    margin-bottom: 18px;
+    background-color: white;
+    border-top:1px solid #CDCDCD;
+    border-right: 3px solid #CBCBCB;
+    border-bottom: 3px solid #AEAEAE;
+    border-left: 1px solid #CBCBCB;
+}
+.zuo2 .lists {
+    padding-left: 20px;
+    list-style: none;
+}
+.zuo2 .lists li {
+    font-size: 15px;
+    line-height: 26px;
+}
+.w8142 {
+    margin: 20px 20px 36px 20px;
+}
+.zuo3 {
+    margin-right: 384px;
+    margin-bottom: 18px;
+    background-color: white;
+    border-top:1px solid #CDCDCD;
+    border-right: 3px solid #CBCBCB;
+    border-bottom: 3px solid #AEAEAE;
+    border-left: 1px solid #CBCBCB;
+}
+.hui{
+    float: left;
+}
+.celan{
+    float: left;
+    padding-left: 11px;
+}
+.w8143 {
+    margin: 20px 20px 36px 20px;
+}
+.box {
+    float: left;
+    text-align: center;
+    width: 120px;
+    height: 124px;
+    margin: 10px;
+    border: 1px solid #CECECE;
+}
+.box p {
+    line-height: 33px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.zuo4 {
+    margin-right: 384px;
+    margin-bottom: 18px;
+    background-color: white;
+    border-top:1px solid #CDCDCD;
+    border-right: 3px solid #CBCBCB;
+    border-bottom: 3px solid #AEAEAE;
+    border-left: 1px solid #CBCBCB;
+}
+.w8144 {
+    margin: 20px 20px 20px 20px;
+}
+.paiming {
+    padding-left: 42px;
+    line-height: 26px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.biaotou{
+    padding-top: 12px;
+    font-weight: bold;
+}
+table.zuobiao {
+    border-collapse:collapse;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+}
+table.zuobiao th,table.zuobiao td {
+    height: 24px;
+    padding-left: 6px;
+}
+
+.shenhui{
+    background-color: #333333;
+    color: white;
+}
+.qianhui {
+    background-color: #CCCCCC;
+}
+h2 {
+    font-size: 21px;
+    line-height: 60px;
+}
+h3 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #606467;
+}
+h4 {
+    font-size: 12px;
+    line-height: 43px;
+    font-weight: normal;
+    color: #6C6C6E;
+}
+p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.suojin {
+    text-indent: 2em;
+}
+.imgpd {
+    padding: 16px 0 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+    height:48px;
+    background-color: #000000;
+    color: #FFF8FF;
+    text-align: center;
+    padding-top: 22px;
+}
