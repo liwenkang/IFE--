@@ -1,0 +1,630 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+}
+/*.clearfix:before,.clearfix:after {*/
+/*content: "";*/
+/*display: table;*/
+/*}*/
+/*.clearfix:after {*/
+/*clear:both;*/
+/*}*/
+.clearfix {
+    overflow: hidden;
+}
+.w1280 {
+    width: 1280px;
+    height: 4554px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.header {
+    height: 56px;
+}
+.minilogo{
+    float: left;
+    padding: 13px 0 0 59px;
+}
+.logo p{
+    float: left;
+    padding: 16px 0 0 11px;
+    font: 21px/1.2em "黑体";
+    color: #393939;
+}
+.nav{
+    float: right;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    display: block;
+    width: 100px;
+    height: 53px;
+    float: left;
+    text-align: center;
+}
+.nav ul li a{
+    display: block;
+    font: 14px/53px "Microsoft YaHei";
+    width: 100px;
+    height: 53px;
+    text-decoration: none;
+    color: #787A82;
+}
+.nav ul li:hover{
+    border-bottom: 3px solid #e74f4d;
+}
+.nav ul li a:hover{
+    color: #e74f4d;
+}
+.denglu{
+    position: relative;
+}
+.img{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    display: block;
+    width: 14px;
+    height: 17px;
+    background-image: url(登录_.png);
+}
+.part1{
+    background: url(图一.png) no-repeat;
+    width: 1280px;
+    height: 690px;
+    position: relative;
+}
+.mengban1{
+    background-color: #000;
+    width: 1280px;
+    height: 690px;
+    opacity: 0.2;
+}
+.time{
+    position: absolute;
+    left: 117px;
+    top: 226px;
+    font-size: 60px;
+    line-height: 60px;
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+}
+.xinshidai{
+    position: absolute;
+    left: 126px;
+    top: 304px;
+    font-size: 21px;
+    line-height: 32px;
+    font-family: "Microsoft YaHei";
+    color: #ffffff;
+}
+.kaishi{
+    position: absolute;
+    top:430px;
+    left: 126px;
+    width: 330px;
+    height:63px;
+    color: #ffffff;
+    font: 30px/61px "Microsoft YaHei";
+    background-color: #e74f4d;
+    text-align: center;
+}
+.part2{
+    position: relative;
+    height: 250px;
+    font: 14px/18px "黑体";
+    text-align: center;
+    color: #666666;
+}
+.line1{
+    position: absolute;
+    top:133px;
+    left: 320px;
+    width: 2px;
+    height: 52px;
+    background-color: #bbbbbb;
+}
+.line2{
+    position: absolute;
+    top:133px;
+    left: 640px;
+    width: 2px;
+    height: 52px;
+    background-color: #bbbbbb;
+}
+.line3{
+    position: absolute;
+    left: 960px;
+    top:133px;
+    width: 2px;
+    height: 52px;
+    background-color: #bbbbbb;
+}
+
+.tu{
+    margin-top: 45px;
+}
+.wenzi{
+    margin-top: 40px;
+}
+.yuan{
+    float: left;
+    width: 320px;
+    height:250px;
+}
+.qi{
+    float: left;
+    width: 320px;
+    height:250px;
+}
+.hua{
+    float: left;
+    width: 320px;
+    height:250px;
+}
+.kuang{
+    float: left;
+    width: 320px;
+    height:250px;
+}
+.part3{
+    height: 361px;
+    width: 1280px;
+    background-color: #ededec;
+    text-align: center;
+}
+.logobig{
+    margin-top: 89px;
+}
+.guanyu{
+    margin-top: 42px;
+    font: 53.59px/56.6px "黑体";
+    color: #a1a1a1;
+}
+.part4{
+    position: relative;
+    width: 1280px;
+    height: 341px;
+    background-image: url(看地图.png);
+    color: #ffffff;
+    text-align: center;
+}
+.mengban2{
+    background-color: red;
+    width: 1280px;
+    height: 341px;
+    opacity: 0.1;
+}
+.chazhao{
+    position: absolute;
+    top:42px;
+    left:501px;
+    font: 21px/41.88px "Microsoft YaHei";
+}
+.linebai{
+    position: absolute;
+    top:86px;
+    left:601px;
+    width: 31px;
+    height: 3px;
+    background-color: #ffffff;
+}
+.meige{
+    position: absolute;
+    top:98px;
+    left:449px;
+    font: 12px/31.27px "Microsoft YaHei";
+}
+.xuanze{
+    position: absolute;
+    top:171px;
+    left: 126px;
+    list-style: none;
+    font: 12px/36px "Microsoft YaHei";
+    text-align: left;
+    color: #999999;
+}
+.zuokong{
+    padding-left:12px;
+}
+.xuanze .hong{
+    background-color: #bf4f48;
+}
+.juzhong {
+    font: 14px/36px "Microsoft YaHei";
+    color: #fff;
+    text-align: center;
+}
+.xuanze li{
+    margin-right: 28px;
+    background-color: white;
+    width: 236px;
+    height: 36px;
+    float: left;
+}
+.xuanze li ul {
+    list-style: none;
+}
+.xuanze li ul li {
+    float: none;
+    width: 236px;
+    height: 27px;
+    margin: 0;
+    background-color: #e3e2e4;
+    font: 12px/26px "Microsoft YaHei";
+    color: #808081;
+}
+.xuanze .sheng{
+    padding-left: 32px;
+}
+.xuanze .current{
+    background-color:#be4e48;
+    color: #ffffff;
+}
+.xuanze .lastone{
+    padding-bottom: 8px;
+}
+.duigou{
+    float: left;
+    padding-left: 8px;
+    width: 12px;
+    height: 8px;
+}
+.xiaotu{
+    position: relative;
+}
+.icon {
+    position: absolute;
+    right:9px;
+    top: 9px;
+    width: 19px;
+    height: 18px;
+    background-image: url(icon.png);
+}
+.biankuang{
+    border: 1px solid #c17770;
+}
+.part5{
+    position: relative;
+    height: 605px;
+}
+.huodong{
+    width: 970px;
+    height: 364px;
+    margin: 112px 0 0 156px;
+}
+.beijing{
+    position: absolute;
+    left:221px;
+    top: 104px;
+    width: 838px;
+    height:385px;
+}
+.part6 {
+    width: 1280px;
+    height: 567px;
+}
+.xinzhao{
+    float: left;
+    position: relative;
+}
+.sanjiao1 {
+    position: absolute;
+    top:267px;
+    right: -1px;
+    width: 26px;
+    height: 31px;
+}
+._x{
+    position: absolute;
+    bottom: 380px;
+    left:352px;
+    font: 49.47px/75.58px "Microsoft YaHei";
+    color: #fff;
+}
+._t{
+    position: absolute;
+    bottom: 202px;
+    left:238px;
+    font: 157.79px/241.06px "Microsoft YaHei";
+    color: #fff;
+}
+._b{
+    position: absolute;
+    bottom: 148px;
+    left:349px;
+    font: 21.91px/43.15px "Microsoft YaHei";
+    color: #fff;
+}
+.xinshijie{
+    position: relative;
+    float: right;
+    height: 567px;
+    width: 429px;
+}
+.xinshi01{
+    position: absolute;
+    top:165px;
+    left:163px;
+}
+.xinshijie p{
+    position: absolute;
+    top:206px;
+    left:71px;
+    font: 12px/30px "宋体";
+    color: #b0b0b0;
+}
+.gengduo {
+    position: absolute;
+    top:368px;
+    left:162px;
+    width: 103px;
+    height: 31px;
+    border: 1px solid #e4666a;
+    font: 12px/31px "Microsoft YaHei";
+    color: #e4666a;
+    text-align: center;
+}
+.diandian {
+    position: absolute;
+    top:420px;
+    left:185px;
+    width: 61px;
+    height: 12px;
+}
+.xsd1{
+    position: relative;
+    float: left;
+    width: 425px;
+    height: 521px;
+    background-color: #e74f4d;
+}
+.xsd2{
+    position: relative;
+    float: left;
+    width: 426px;
+    height: 521px;
+}
+.youpic{
+    position: relative;
+    float: right;
+    width: 429px;
+    height:521px;
+    background-image: url(youtu.png);
+}
+.mengban3 {
+    width: 429px;
+    height: 521px;
+    background-color: #000;
+    opacity: 0.4;
+}
+.sanjiao2 {
+    position: absolute;
+    top:245px;
+    left: -1px;
+    width: 26px;
+    height: 31px;
+}
+.part7 p{
+    font: 21px/30.36px "黑体";
+    position: absolute;
+    top: 165px;
+    left: 129px;
+    text-align: center;
+}
+.xin1{
+    color: #ffffff;
+}
+.hengxian1 {
+    position: absolute;
+    top:247px;
+    left: 198px;
+    width: 30px;
+    height: 2px;
+    background-color: #ffffff;
+}
+.hengxian2 {
+    position: absolute;
+    top:247px;
+    left: 198px;
+    width: 30px;
+    height: 2px;
+    background-color: #abaaaa;
+}
+.chakan1 {
+    position: absolute;
+    top: 275px;
+    left: 128px;
+    width: 166px;
+    height:40px;
+    border: 1px solid #fff;
+    font: 21px/40px "黑体";
+    color: #ffffff;
+    text-align: center;
+}
+.chakan2 {
+    position: absolute;
+    top: 275px;
+    left: 128px;
+    width: 166px;
+    height:40px;
+    font: 21px/40px "黑体";
+    color: #e4666a;
+    border: 1px solid #e4666a;
+    text-align: center;
+}
+.chengwei{
+    position: relative;
+    width: 1280px;
+    height: 301px;
+    text-align: center;
+}
+.cheng {
+    position: relative;
+    top:112px;
+    font: 21px/30.36px "黑体";
+    color: #323333;
+}
+.hongline {
+    position: relative;
+    top:116px;
+    left: 626px;
+    width: 30px;
+    height: 2px;
+    background-color: #e4666a;
+}
+.najiu {
+    font: 12px/18px "Microsoft YaHei";
+    position: absolute;
+    top:160px;
+    left: 431px;
+    color: #aaaaaa;
+}
+.shenqing{
+    width: 1003px;
+    height: 448px;
+    margin: 0 auto;
+}
+.zuo{
+    float: left;
+    width: 288px;
+    height: 448px;
+}
+.you {
+    float: right;
+    position: relative;
+    width: 640px;
+    height: 448px;
+}
+input {
+    border: none;
+    background-color: #ededee;
+    text-indent: 1.5em;
+    font: 12px/38px "宋体";
+    color: #787474;
+}
+.xingming{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 310px;
+    height: 38px;
+}
+.nianling{
+    position: absolute;
+    top:0;
+    left:330px;
+    width: 310px;
+    height: 38px;
+}
+.lianxi1{
+    position: absolute;
+    top:54px;
+    left:0;
+    width: 310px;
+    height: 38px;
+}
+.lianxi2{
+    position: absolute;
+    top:54px;
+    left:330px;
+    width: 310px;
+    height: 38px;
+}
+.miaoshu {
+    position: absolute;
+    top:108px;
+    left:0;
+    width: 640px;
+    height: 31px;
+    padding-bottom: 90px;
+}
+button{
+    position: absolute;
+    top:242px;
+    left:0;
+    border: none;
+    width: 640px;
+    height: 40px;
+    background-color: #ededee;
+    color: #323333;
+    font: 14px/40px "黑体";
+}
+.part9 {
+    position: relative;
+    width: 1280px;
+    height: 358px;
+    background-color: #32353e;
+    text-align: center;
+}
+.lianxiwomen{
+    position: absolute;
+    top: 76px; /*92px*/
+    left: 599px;
+    font: 21px/48.37px "黑体";
+    color: #ffffff;
+}
+.weile {
+    position: absolute;
+    top:118px;
+    left:406px;
+    font: 12px/18px "宋体";
+    color: #ffffff;
+}
+.shurukuang {
+    text-indent: 0.8em;
+    position: absolute;
+    top:182px;
+    left: 385px;
+    width: 431px;
+    height: 40px;
+    position: absolute;
+    font: 14px/40px "Microsoft YaHei";
+    color: #aaaaaa;
+}
+.tijiao{
+    position: absolute;
+    top:182px;
+    left: 816px;
+    width: 80px;
+    height: 40px;
+    background-color: #6f7278;
+    font: 15px/22.48px "Microsoft YaHei";
+    color: #ffffff;
+}
+.logo4{
+    position: absolute;
+    top: 260px;
+    left: 550px;
+}
+.logo4 img{
+    margin-right: 24px;
+}
+.footer {
+    position: relative;
+    width: 1280px;
+    height: 58px;
+    background-color: #2f2f38;
+    font: 12px/22.79px "宋体";
+    color: #ffffff;
+}
+.xin2016{
+    position: absolute;
+    left:100px;
+    top:26px;
+}
+.back{
+    position: absolute;
+    right:38px;
+    top:26px;
+}
+.back a{
+    text-decoration: none;
+    font: 12px/22.79px "宋体";
+    color: #ffffff;
+}
