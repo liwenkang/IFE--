@@ -1,0 +1,8 @@
+.kuang
+{
+	margin-right: -10px; /*默认-30px*/
+	margin-top: 20px;    /*默认0px*/
+	height: 50px;
+	background-color:#eee;
+	border: 1px solid #ddd;
+}
