@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IFE JavaScript Task 01</title>
+</head>
+<body>
+
+<h3>污染城市列表</h3>
+<ul id="aqi-list">
+	<!--
+			<li>第一名：福州（样例），10</li>
+				<li>第二名：福州（样例），10</li> -->
+</ul>
+
+<script type="text/javascript">
+
+	var aqiData = [
+		["北京", 102],
+		["上海", 50],
+		["福州", 10],
+		["广州", 50],
+		["成都", 90],
+		["西安", 100]
+	]
+
+	var list = document.getElementById("aqi-list");
+	/* 1. 通过filter()函数,找出数组中数字的数值大于60的数组 */
+	/* 该方法让您规定一个条件。不符合条件的元素将从选择中移除，符合条件的元素将被返回。 */
+	var aqi = aqiData.filter(function (a) {return a[1]>60} );
+	/* 注意当数组中出现字符串和数字的时候,若比较数字,需要 定位数字出现的位置 通过参数 a 来表达 */
+	/* 现在api就就是 所有数值大于60构成的新数组了 */
+
+	/* 2. 对新生产的数组aqi进行排序 */
+	aqi = aqi.sort(function (a,c) {return c[1]-a[1]});
+	/* 注意当数组中出现字符串和数字的时候,若要求排序,需要 定位数字出现的位置 通过参数 a,c 来表达 */
+	/* 降序c-a 升序a-c */
+
+	/* 3. 输出新数组 */
+	function output() {
+		for (var i = 0, len = aqi.length; i<len;i++){
+			var li = document.createElement("li");                  /* 创建li元素 */
+			list.append(li);                                        /* 父级元素后追加子集元素 在ul后面追加li */
+			li.innerHTML = "第"+(i+1)+"名:"+aqi[i];                 /* 输出li */
+		}
+	}
+	output();
+
+//	var array = [1,3,5,7,9,2,4,6,8];
+//	alert(array.sort());                                      /*升序排列*/
+//	alert(array.reverse());                                   /*降序排列*/
+</script>
+</body>
+</html>
