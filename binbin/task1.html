@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IFE JavaScript Task 01</title>
+</head>
+<body>
+	<label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+	<button id="button">确认填写</button>
+
+	<div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
+
+	<script type="text/javascript">
+		var input = document.getElementById("aqi-input");
+		var button = document.getElementById("button");
+		var display = document.getElementById("aqi-display");
+		button.onclick = function () {
+			display.innerHTML = input.value;                        /*注意span标签值的修改需要使用innerHTML input的值用value*/
+		}
+	</script>
+
+	<!--<label>请输入北京今天空气质量：<input id="input" type="text"></label>-->
+	<!--<button id="button1">确认填写</button>-->
+
+	<!--<div>您输入的值是：<input id="display" value="尚未输入"></div>-->
+
+	<!--<script type="text/javascript">-->
+		<!--var input1 = document.getElementById("input");-->
+		<!--var button1 = document.getElementById("button1");-->
+		<!--var display1 = document.getElementById("display");-->
+		<!--button1.onclick = function () {-->
+			<!--display1.value = input1.value;                   -->
+		<!--}-->
+	<!--</script>-->
+</body>
+</html>
